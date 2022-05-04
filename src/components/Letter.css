@@ -1,0 +1,13 @@
+.letter {
+    color: rgb(206, 198, 198);
+}
+
+.letter.correct {
+    background-color: rgba(79, 190, 79, 0.5);
+    color: black;
+}
+
+.letter.wrong {
+    background-color: rgba(235, 100, 100, 0.5);
+    color: red;
+}

@@ -1,0 +1,39 @@
+
+body {
+    /* background-image: url('../assets/images/5.jpg'); */
+    background-color: #343a40;
+    /* background-size: cover; */
+}
+
+.textInput {
+    margin: 100px 200px;
+}
+
+.text {
+    cursor: default;
+
+}
+
+
+.word {
+    display: inline-flex;
+    font-size: xx-large;
+    margin-left: 10px;
+}
+
+.letter {
+    display: inline;
+    font-size: xx-large;
+    /* margin-left: 10px; */
+    color: rgb(206, 198, 198);
+}
+
+.letter.correct {
+    background-color: rgba(79, 190, 79, 0.3);
+    color: black;
+}
+
+.letter.wrong {
+    background-color: rgba(235, 100, 100, 0.5);
+    color: red;
+}
