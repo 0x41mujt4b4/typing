@@ -10,7 +10,7 @@ const Input = React.forwardRef(({onChange}, ref) => {
         return {focus: focus}
     })
     return (
-        <input type="text" className="input" ref={inputRef} onChange={onChange}/>
+        <input autoFocus type="text" className="input" ref={inputRef} onChange={onChange}/>
     )
 })
 
